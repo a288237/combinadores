@@ -1,0 +1,59 @@
+nav > ul{
+  list-style: none;
+}
+
+img {
+  height: 100px;
+}
+
+img + p{
+  font-style: italic;
+}
+
+a:link{
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border: 1px solid red;
+  text-decoration: none;
+}
+a:visited{
+  background-color: grey;
+  border-color: black;
+}
+a:hover{
+  text-decoration: underline;
+  border-color: blue;
+}
+a:active{
+  background-color: red;
+  border-color: orange;
+}
+li:first-child{
+  color: gold;
+}
+li:nth-child(2){
+  color: silver;
+}
+li:nth-child(3){
+  color: brown;
+}
+li:last-child{
+  font-size: 5px;
+}
+input:hover{
+  outline: 1px dashed red;
+}
+input:focus{
+  background-color: yellow;
+}
+p::first-letter{
+  font-size: 40px;
+}
+p::first-line{
+  background-color: yellow;
+}
+p::-moz-selection{
+  color: red;
+  background-color: grey;
+}
